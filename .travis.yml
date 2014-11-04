@@ -9,6 +9,6 @@ before_script:
 script:
     - lettuce AceptanceTest
     - cd UnitTest
-    - python testCalculator.python
-    - coverage run --branch testCalculator.python
+    - python testCalculator.py
+    - coverage run --branch testCalculator.py
     - coverage report -m
