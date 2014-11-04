@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from lettuce import *
+from lettuce import world, step
 import sys
 sys.path.append("../")
 from Calculator import Calculator
